@@ -1,9 +1,9 @@
 {
   description = "winden";
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-20.09-darwin";
+    nixpkgs.url = "github:nixos/nixpkgs/release-21.05";
     darwin.url = "github:lnl7/nix-darwin/master";
-    home-manager.url = "github:nix-community/home-manager/release-20.09";
+    home-manager.url = "github:nix-community/home-manager/master";
 
     darwin.inputs.nixpkgs.follows = "nixpkgs";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
